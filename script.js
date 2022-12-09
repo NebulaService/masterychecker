@@ -27,4 +27,8 @@ function _0x1d89() {
         return _0xfb694e;
     };
     return _0x1d89();
+  
+document.write("<style>iframe {height:100%;width:100%;padding:5px;}body{overflow:hidden;}</style>");
+    
 }
+
