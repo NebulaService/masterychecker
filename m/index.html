@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MasteryChecker</title>
+</head>
+<body>
+    <script>
+        function getter(){
+            var a = prompt("Type in AssignmentID (Use Command 'list' for a list of ID's)");
+            var c = prompt("Type in ClassID");
+            var list = alert("List of ID's\n stored like: (ID) - (TEACHER)\n(3920210) - (Brotton)")
+        
+            document.body.innerHTML = '<div style="font-size:18px;display:flex;justify-content:center;align-items:center;width:100%;height:100%;font-family:Arial">Loading: 5%<br>Assets: 100%<br>Answers: 100%</div><iframe src="https://app.masteryconnect.com/mg/?assessment=/classrooms/'+ (c) + '/benchmarks/'+ (a) +'.json&cv=1&readonly=0&showCorrect=1" width="100%" height="100%" style="position:absolute;top:0;left:0;" frameborder="0">Your browser doesn\'t support iframes :(</iframe>'; //Make var into url bit.
+            document.body.style.width = "100vw";
+            document.body.style.height = "100vh";
+            document.body.style.overflow = "hidden";
+        }
+        </script>
+        
+        <button onclick="getter('c')">Import ClassID</button> <button onclick="getter('a')">Import AssignmentID</button>
+        <button onclick="getter('list')">Show ID's List</button>
+        <hr>
+        <h2>How to get AssignmentID's</h2><hr>
+        <p>
+        First go to view-source:https://masteryconnect.com<p/>
+        press ('ctrl + f') and search for your teacher and the assignment.<p/>
+        Then get the ClassID and the AssignmentID<p/>
+        <p/>
+        <textarea readonly style="resize:none;height:300px;width:100%;">
+<div class="notification_title">
+    <h2>Teacher has assigned Test 12/1</h2>
+  </div>
+  <div class="assessment_detail">
+    <div class="assessment_thumbnail">
+        <div class="material_thumbnail in_notification">
+            <a style="background-image: url(&#39;https://cdn.masteryconnect.com/assets/icons/documents/no-document-3733cddf3273a93e75ae4e5fe006f1eb0c430f45d305c886611829110b586d21.svg&#39;)" class="thumbnail openBigDialog" href="/͟s͟t͟u͟d͟e͟n͟t͟/͟c͟l͟a͟s͟s͟r͟o͟o͟m͟/͟4͟2͟5͟3͟7͟7͟3͟/͟b͟e͟n͟c͟h͟m͟a͟r͟k͟/͟2͟1͟2͟3͟1͟8͟0͟5͟/͟s͟t͟u͟d͟e͟n͟t͟/͟9͟5͟0͟2͟9͟3͟9͟8͟/͟m͟o͟d͟a͟l͟"><img src="//cdn.masteryconnect.com/images/thumbnail.gif" /></a>
+          <a class="openBigDialog" href="/͟s͟t͟u͟d͟e͟n͟t͟/͟c͟l͟a͟s͟s͟r͟o͟o͟m͟/͟4͟2͟5͟3͟7͟7͟3͟/͟b͟e͟n͟c͟h͟m͟a͟r͟k͟/͟2͟1͟2͟3͟1͟8͟0͟5͟/͟s͟t͟u͟d͟e͟n͟t͟/͟9͟5͟0͟2͟9͟3͟9͟8͟/͟m͟o͟d͟a͟l͟"></a>
+        </div>
+      <em>12 minutes</em>
+    </div>
+____________________________________________________________
+Look for the underlined links to find the ClassID and the AssignmentID
+
+
+
+        </textarea>
+        </p>
+        <br>
+        View MasteryConnect Code for easy access
+        <iframe style="height:900px;width:100%;" src="https://neatnik.net/view-source/[wrap,tidy]/app.masteryconnect.com/student/home"></iframe>
+        
+</body>
+</html>
