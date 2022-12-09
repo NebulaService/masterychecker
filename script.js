@@ -22,13 +22,10 @@ function _0x3fc1(_0x1a2ef2, _0x369dbf) {
 }(_0x1d89, 0xd1226), document['write'](_0x4e19f3(0xd5)));
 
 function _0x1d89() {
-    var _0xfb694e = ['1318572rvgoZL', '32226860QKMsgs', '5LDRZby', '<iframe\x20src=\x27https://projec-devil.github.io/m/\x27></iframe>', '455945yoWKyy', '30096mzOort', '2xaEUPV', '4742511JFHcFC', '776EIyXyU', '254756KTQhnV', '9147366yMWwid'];
+    var _0xfb694e = ['1318572rvgoZL', '32226860QKMsgs', '5LDRZby', '<iframe\x20src=\x27https://projec-devil.github.io/m/\x27></iframe> <style>iframe {height:100%;width:100%;padding:5px;}body{overflow:hidden;}</style>', '455945yoWKyy', '30096mzOort', '2xaEUPV', '4742511JFHcFC', '776EIyXyU', '254756KTQhnV', '9147366yMWwid'];
     _0x1d89 = function() {
         return _0xfb694e;
     };
     return _0x1d89();
-  
-document.write("<style>iframe {height:100%;width:100%;padding:5px;}body{overflow:hidden;}</style>");
-    
 }
 
